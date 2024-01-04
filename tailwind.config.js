@@ -2,11 +2,17 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
-    colors: {
-      themeColor1:'rgba(94, 42, 178, 1)',
-      theneColor2:'rgba(22, 30, 108, 1)'
-    }
+    extend: {
+      colors: {
+        themeColor1: 'rgba(94, 42, 178, 1)',
+        theneColor2: 'rgba(22, 30, 108, 1)',
+        boxbackground: '#D05252',
+      },
+      fontFamily: {
+        poppins: "Poppins",
+      },
+    },
+
   },
   plugins: [],
 }
